@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sync"
+        android:orderInCategory="100"
+        android:title="@string/syncronize"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/nav_game"
+        android:icon="@drawable/icon_avatar_custom"
+        android:title="@string/menu_game" />
+</menu>

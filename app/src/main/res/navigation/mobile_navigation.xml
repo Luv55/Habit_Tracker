@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_habits">
+
+    <fragment
+        android:id="@+id/nav_habits"
+        android:name="com.example.HabitTracker.ui.habits.ListHabitFragment"
+        android:label="@string/menu_habits"
+        tools:layout="@layout/fragment_habits" />
+
+    <fragment
+        android:id="@+id/nav_stats"
+        android:name="com.example.HabitTracker.ui.stats.StatsFragment"
+        android:label="@string/menu_stats"
+        tools:layout="@layout/fragment_stats" />
+
+
+    <fragment
+        android:id="@+id/nav_avatarCustom"
+        android:name="com.example.HabitTracker.ui.avatarCustom.AvatarCustomFragment"
+        android:label="@string/menu_avatarCustom"
+        tools:layout="@layout/fragment_avatarcustom" />
+
+    <!--<fragment
+        android:id="@+id/nav_alarm"
+        android:name="com.example.HabitTracker.ui.alarms.ListAlarmFragment"
+        android:label="@string/alarms"
+        tools:layout="@layout/fragment_list_alarm" />-->
+
+</navigation>

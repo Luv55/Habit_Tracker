@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/navigation_face">
+
+    <fragment
+        android:id="@+id/navigation_face"
+        android:name="com.example.HabitTracker.ui.characterFace.CharacterFaceFragment"
+        android:label="@string/title_face"
+        tools:layout="@layout/fragment_character_face" >
+        <action
+            android:id="@+id/action_navigation_face_to_navigation_body"
+            app:destination="@id/navigation_body" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_body"
+        android:name="com.example.HabitTracker.ui.characterBody.CharacterBodyFragment"
+        android:label="@string/title_body"
+        tools:layout="@layout/fragment_character_body" >
+        <action
+            android:id="@+id/action_navigation_body_to_navigation_hair"
+            app:destination="@id/navigation_hair" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_hair"
+        android:name="com.example.HabitTracker.ui.characterHair.CharacterHairFragment"
+        android:label="@string/title_hair"
+        tools:layout="@layout/fragment_character_hair" >
+        <action
+            android:id="@+id/action_navigation_hair_to_navigation_face"
+            app:destination="@id/navigation_face" />
+    </fragment>
+</navigation>

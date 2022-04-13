@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.hair.HairCustomFragment"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/iv_hair1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/circle_hair_black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iv_hair2a"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/iv_hair2a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle_hair_brown"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_hair1a"
+        app:layout_constraintEnd_toStartOf="@+id/iv_hair3a"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_hair1a"
+        app:layout_constraintTop_toTopOf="@+id/iv_hair1a" />
+
+    <ImageView
+        android:id="@+id/iv_hair3a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle_hair_blue"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_hair2a"
+        app:layout_constraintEnd_toStartOf="@+id/iv_hair4a"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_hair2a"
+        app:layout_constraintTop_toTopOf="@+id/iv_hair2a" />
+
+    <ImageView
+        android:id="@+id/iv_hair4a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle_hair_yellow"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_hair3a"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_hair3a"
+        app:layout_constraintTop_toTopOf="@+id/iv_hair3a" />
+
+    <ImageView
+        android:id="@+id/iv_hair5a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle_hair_empty"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_hair6a"
+        app:layout_constraintEnd_toStartOf="@+id/iv_hair6a"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iv_hair6a" />
+
+    <ImageView
+        android:id="@+id/iv_hair6a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle_hair_pink"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_hair7a"
+        app:layout_constraintEnd_toStartOf="@+id/iv_hair7a"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_hair5a"
+        app:layout_constraintTop_toTopOf="@+id/iv_hair7a" />
+
+    <ImageView
+        android:id="@+id/iv_hair7a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/circle_hair_red"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_hair8a"
+        app:layout_constraintEnd_toStartOf="@+id/iv_hair8a"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_hair6a"
+        app:layout_constraintTop_toTopOf="@+id/iv_hair8a" />
+
+    <ImageView
+        android:id="@+id/iv_hair8a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/circle_hair_turquoise"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_hair7a"
+        app:layout_constraintTop_toBottomOf="@+id/iv_hair4a"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

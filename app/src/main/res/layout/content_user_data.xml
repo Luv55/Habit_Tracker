@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintHeight_percent="0.3"
+    android:background="@color/colorPrimary"
+    android:id="@+id/content_user_data"
+    android:animateLayoutChanges="true">
+
+
+    <ImageView
+        android:id="@+id/iv_faceb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086"
+        app:srcCompat="@drawable/face1" />
+
+    <ImageView
+        android:id="@+id/iv_bodyb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_faceb"
+        app:layout_constraintEnd_toEndOf="@+id/iv_faceb"
+        app:layout_constraintStart_toStartOf="@+id/iv_faceb"
+        app:layout_constraintTop_toTopOf="@+id/iv_faceb"
+        app:srcCompat="@drawable/body_yellow" />
+
+    <ImageView
+        android:id="@+id/iv_hairb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_faceb"
+        app:layout_constraintEnd_toEndOf="@+id/iv_faceb"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="@+id/iv_faceb"
+        app:layout_constraintTop_toTopOf="@+id/iv_faceb"
+        app:layout_constraintVertical_bias="0.625"
+        app:srcCompat="@drawable/hair_brown" />
+
+    <ProgressBar
+        android:id="@+id/pb_level"
+        style="?android:attr/progressBarStyleHorizontal"
+        app:layout_constraintWidth_percent="0.5"
+        android:layout_width="0dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toEndOf="@+id/iv_faceb"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485" />
+
+    <TextView
+        android:id="@+id/tv_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/level"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/pb_level"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toEndOf="@+id/iv_faceb"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.504" />
+
+    <ProgressBar
+        android:id="@+id/pb_healt"
+        style="?android:attr/progressBarStyleHorizontal"
+        app:layout_constraintWidth_percent="0.5"
+        android:layout_width="0dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.815"
+        app:layout_constraintStart_toEndOf="@+id/iv_faceb"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.196" />
+
+    <TextView
+        android:id="@+id/tv_health"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/health"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/pb_healt"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintStart_toEndOf="@+id/iv_faceb"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.225" />
+
+    <ImageView
+        android:id="@+id/iv_coin"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toEndOf="@+id/iv_bodyb"
+        app:layout_constraintTop_toBottomOf="@+id/pb_healt"
+        app:layout_constraintVertical_bias="0.724"
+        app:srcCompat="@drawable/coin"
+        android:contentDescription="@string/money" />
+
+    <TextView
+        android:id="@+id/tv_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/money"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iv_coin"
+        app:layout_constraintHorizontal_bias="0.936"
+        app:layout_constraintStart_toEndOf="@+id/iv_bodyb"
+        app:layout_constraintTop_toBottomOf="@+id/pb_healt"
+        app:layout_constraintVertical_bias="0.73" />
+</androidx.constraintlayout.widget.ConstraintLayout>

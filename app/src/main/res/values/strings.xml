@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name" translatable="false">Habit Tracker</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_habits">Habits</string>
+    <string name="menu_stats">Stats</string>
+    <string name="menu_avatarCustom">Avatar Customization</string>
+    <string name="menu_game">Game</string>
+    <string name="positive">Positive</string>
+    <string name="negative">Negative</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ip" translatable="false">https://styleless-delight.000webhostapp.com/</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="preferencesHabitTracker" translatable="false">preferencesHabitTracker</string>
+    <string name="preferences_email" translatable="false">email</string>
+    <string name="preferences_islogin" translatable="false">islogin</string>
+    <string name="preferences_firstTime" translatable="false">true</string>
+    <string name="preferences_name" translatable="false">name</string>
+    <string name="preferences_money" translatable="false">0</string>
+    <string name="preferences_moneyBoolean" translatable="false">false</string>
+    <string name="preferences_id" translatable="false">id</string>
+    <string name="preferences_body" translatable="false">body</string>
+    <string name="preferences_price" translatable="false">price</string>
+    <string name="title_activity_desing" translatable="false">Desing</string>
+    <string name="title_face">Face</string>
+    <string name="title_body">Clothes</string>
+    <string name="title_hair">Hair</string>
+    <string name="button_health_die" translatable="false"><![CDATA[Refill Health & Try Again]]></string>
+    <string name="Sports">Sports</string>
+    <string name="Meditation">Meditation</string>
+    <string name="Diet">Diet</string>
+    <string name="Wellbeing">Wellbeing</string>
+    <string name="Social">Social</string>
+    <string name="menu_face">face</string>
+    <string name="menu_body">body</string>
+    <string name="menu_hair">hair</string>
+    <string name="avatar_body" translatable="false">Avatar Body</string>
+    <string name="save">Save</string>
+    <string name="avatar_hair" translatable="false">Avatar Hair</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="habit_tracker" translatable="false">Habit Tracker</string>
+    <string name="add_habits" translatable="false">Add Habits</string>
+    <string name="youLost">You have lost</string>
+    <string name="health">HEALTH</string>
+    <string name="money" translatable="false">$</string>
+    <string name="level">LEVEL</string>
+    <string name="yellow_t_shirt" translatable="false">Yellow T-shirt</string>
+    <string name="store">Store</string>
+    <string name="do_you_want_to_buy_it">Do you want to buy it?</string>
+    <string name="buy">Buy</string>
+    <string name="blue_t_shirt" translatable="false">Blue T-shirt</string>
+    <string name="red_t_shirt" translatable="false">Red T-shirt</string>
+    <string name="green_t_shirt" translatable="false">Green T-shirt</string>
+    <string name="black_hair" translatable="false">Black hair</string>
+    <string name="brown_hair" translatable="false">Brown hair</string>
+    <string name="blue_hair" translatable="false">Blue hair</string>
+    <string name="blonde_hair" translatable="false">Blonde hair</string>
+    <string name="you_die">You Die!</string>
+    <string name="Revive">You lost a Level, your Gold and the Experience, but you can get them back with hard work! Good luck.</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="sports">Sports</string>
+    <string name="meditation">Meditation</string>
+    <string name="tags">Tags</string>
+    <string name="diet">Diet</string>
+    <string name="wellbeing">wellbeing</string>
+    <string name="social">Social</string>
+    <string name="studies">Studies</string>
+    <string name="monthly">monthly</string>
+    <string name="weekly">weekly</string>
+    <string name="daily">Daily</string>
+    <string name="streak">Streak</string>
+    <string name="difficulty_4" translatable="false">4</string>
+    <string name="difficulty_3" translatable="false">3</string>
+    <string name="difficulty_2" translatable="false">2</string>
+    <string name="difficulty_1" translatable="false">1</string>
+    <string name="alarms">Alarms</string>
+    <string name="firstTimeTitle">Welcome to Habit Tracker</string>
+    <string name="firstTimeContent">With this applicattion you will be able to track the habits you want to acquire. <br />In the bottom left corner you will see a floating ball in which you will be able to create your habits</string>
+    <string name="firstTimeContent2">Every habit will have 2 buttons for indicating if you have done it and if you click on the habit name you will have the possibility to edit the habit</string>
+    <string name="firstTimeContent3">In the top right corner you can access to the toggle menu witch will show you the stats and the store. <br />I wish you good luck in your journey</string>
+    <string name="firstTimeButton">Next</string>
+    <string name="firstTimeButton2">Let´s Start</string>
+    <string name="get_some_coins">Get some Coins!</string>
+    <string name="play">Play</string>
+    <string name="habitname">Habit</string>
+    <string name="delete">delete</string>
+    <string name="DeleteHabitQuestion">Do you want to delete the habit:</string>
+    <string name="deleteHabit">Delete Habit</string>
+    <string name="cancel">cancel</string>
+    <string name="youGet">You have obtain</string>
+    <string name="and">and</string>
+    <string name="newLevel">NEW LEVEL!!</string>
+    <string name="experience">xp</string>
+    <string name="moneyTxt">Coins</string>
+    <string name="buyClothes">This article of clothes at least needs level:</string>
+    <string name="cost">and costs:</string>
+    <string name="internetConection">You need internet connection</string>
+    <string name="bought">Bought!!</string>
+    <string name="loginWrong">Email or password wrong</string>
+    <string name="failInternet">Internet connection failed</string>
+    <string name="failedRegister">failed register</string>
+    <string name="registered">Registered</string>
+    <string name="newHabit">New Habit</string>
+    <string name="habitSaved">Habit Saved</string>
+    <string name="dialogs">Complete the dialogs</string>
+    <string name="close">Close</string>
+    <string name="itemcost">This piece of clothe costs:</string>
+    <string name="editHabit">Habit Edit</string>
+    <string name="syncronize">Syncronize</string>
+
+</resources>

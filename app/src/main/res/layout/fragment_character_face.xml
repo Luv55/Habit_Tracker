@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/iv_face1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iv_face2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/circle_face5" />
+
+    <ImageView
+        android:id="@+id/iv_face2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_face1"
+        app:layout_constraintEnd_toStartOf="@+id/iv_face3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_face1"
+        app:layout_constraintTop_toTopOf="@+id/iv_face1"
+        app:srcCompat="@drawable/circle_face7" />
+
+    <ImageView
+        android:id="@+id/iv_face3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_face2"
+        app:layout_constraintEnd_toStartOf="@+id/iv_face4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_face2"
+        app:layout_constraintTop_toTopOf="@+id/iv_face2"
+        app:srcCompat="@drawable/circle_face6" />
+
+    <ImageView
+        android:id="@+id/iv_face4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_face3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_face3"
+        app:layout_constraintTop_toTopOf="@+id/iv_face3"
+        app:srcCompat="@drawable/circle_face8" />
+
+    <ImageView
+        android:id="@+id/iv_face5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/iv_face6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_face1"
+        app:layout_constraintVertical_bias="0.047"
+        app:srcCompat="@drawable/circle_face1" />
+
+    <ImageView
+        android:id="@+id/iv_face7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_face6"
+        app:layout_constraintEnd_toStartOf="@+id/iv_face8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_face6"
+        app:layout_constraintTop_toTopOf="@+id/iv_face6"
+        app:srcCompat="@drawable/circle_face2" />
+
+    <ImageView
+        android:id="@+id/iv_face6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_face5"
+        app:layout_constraintEnd_toStartOf="@+id/iv_face7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_face5"
+        app:layout_constraintTop_toTopOf="@+id/iv_face5"
+        app:srcCompat="@drawable/circle_face3" />
+
+    <ImageView
+        android:id="@+id/iv_face8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_face7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/iv_face7"
+        app:layout_constraintTop_toTopOf="@+id/iv_face7"
+        app:srcCompat="@drawable/circle_face4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

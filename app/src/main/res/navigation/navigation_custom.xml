@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigatio_custom"
+    app:startDestination="@+id/nav_face">
+
+    <fragment
+        android:id="@+id/nav_face"
+        android:name="com.example.HabitTracker.ui.face.FaceCustomFragment"
+        android:label="@string/menu_face"
+        tools:layout="@layout/fragment_face_custom" >
+        <action
+            android:id="@+id/action_nav_face_to_nav_body"
+            app:destination="@id/nav_body" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_body"
+        android:name="com.example.HabitTracker.ui.body.BodyCustomFragment"
+        android:label="@string/menu_body"
+        tools:layout="@layout/fragment_body_custom" >
+        <action
+            android:id="@+id/action_nav_body_to_nav_hair"
+            app:destination="@id/nav_hair" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_hair"
+        android:name="com.example.HabitTracker.ui.hair.HairCustomFragment"
+        android:label="@string/menu_hair"
+        tools:layout="@layout/fragment_hair_custom" >
+        <action
+            android:id="@+id/action_nav_hair_to_nav_face"
+            app:destination="@id/nav_face" />
+    </fragment>
+</navigation>
